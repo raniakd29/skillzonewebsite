@@ -1,0 +1,92 @@
+.contactSection {
+    padding: 64px 0;
+  }
+  
+  .contactContent {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+  
+  .contactInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .contactTitle {
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+  
+  .contactEmail {
+    color: #4ade80;
+    transition: color 0.2s ease;
+  }
+  
+  .contactEmail:hover {
+    color: #22c55e;
+  }
+  
+  .socialSection {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .socialTitle {
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+  
+  .socialIcons {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+  }
+  
+  .socialIcon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #4ade80;
+    transition: all 0.2s ease;
+  }
+  
+  .socialIcon:hover {
+    background-color: #4ade80;
+    color: #121212;
+  }
+  
+  .ctaContainer {
+    margin-top: 64px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .ctaButton {
+    background: linear-gradient(to right, #4ade80, #3b82f6);
+    color: white;
+    font-weight: 700;
+    padding: 16px 32px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .ctaButton:hover {
+    transform: scale(1.05);
+  }
+  
+  .ctaButton:active {
+    transform: scale(0.95);
+  }
+  

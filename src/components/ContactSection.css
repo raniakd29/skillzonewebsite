@@ -1,0 +1,92 @@
+.contact-section {
+    padding: 64px 0;
+  }
+  
+  .contact-content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+  
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .contact-title {
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+  
+  .contact-email {
+    color: var(--green-color);
+    transition: color 0.2s ease;
+  }
+  
+  .contact-email:hover {
+    color: #22c55e;
+  }
+  
+  .social-section {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .social-title {
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+  }
+  
+  .social-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--green-color);
+    transition: all 0.2s ease;
+  }
+  
+  .social-icon:hover {
+    background-color: var(--green-color);
+    color: #121212;
+  }
+  
+  .cta-container {
+    margin-top: 64px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .cta-button {
+    background: linear-gradient(to right, var(--green-color), var(--blue-dark-color));
+    color: white;
+    font-weight: 700;
+    padding: 16px 32px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .cta-button:hover {
+    transform: scale(1.05);
+  }
+  
+  .cta-button:active {
+    transform: scale(0.95);
+  }
+  

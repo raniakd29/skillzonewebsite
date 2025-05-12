@@ -1,0 +1,30 @@
+.footer {
+    padding: 32px 0;
+    margin-top: 32px;
+    border-top: 1px solid #333;
+  }
+  
+  .footerLinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  @media (min-width: 768px) {
+    .footerLinks {
+      flex-direction: row;
+      gap: 32px;
+    }
+  }
+  
+  .footerLink {
+    color: #9ca3af;
+    transition: color 0.2s ease;
+  }
+  
+  .footerLink:hover {
+    color: white;
+  }
+  

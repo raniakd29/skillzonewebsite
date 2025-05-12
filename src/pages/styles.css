@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji",
+      "Segoe UI Emoji", "Segoe UI Symbol";
+    background-color: #121212;
+    color: white;
+    line-height: 1.6;
+  }
+  
+  .about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  .header {
+    display: flex;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    margin-bottom: 120px;
+    font-size: 45px;
+    font-weight: 700;
+  }
+
+  .about-text {
+    color: #4ae54a;
+    font-size: 45px;
+    margin-right: 10px;
+  }
+
+  @media (min-width: 200px) {
+    .skillzone {
+        height: 200px;
+      }
+  }
+    
+  .skillzone{
+    display: flex;
+    position: relative;
+    position: absolute;
+    border-radius: 8px;
+    width :50%;
+    margin-bottom: 50px;
+  }
+  
+  .z-letter {
+    color: #4ae54a;
+    text-shadow: 0 0 15px rgba(74, 229, 74, 0.7);
+  }
+  
+  .content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .paragraph {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  .highlight {
+    color: #4ae54a;
+    font-weight: 600;
+  }
+  
+  .quote {
+    font-style: italic;
+    margin: 30px 0;
+    font-size: 18px;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+    position: relative;
+  }
+  
+  .tagline {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+  
+  .learning-text {
+    color: #4aa5e5;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .makes-you-text {
+    color: white;
+    display: block;
+  }
+  
+  .happy-text {
+    color: #4ae54a;
+  }
+  
+  .illustration {
+    width: 250px;
+    height: 250px;
+    position: relative;
+  }
+  
+  .illustration-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  .star {
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    color: #4aa5e5;
+    font-size: 24px;
+  }
+  
+  @media (max-width: 768px) {
+    .footer {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .tagline {
+      margin-bottom: 30px;
+    }
+  
+    .star {
+      display: none;
+    }
+  };

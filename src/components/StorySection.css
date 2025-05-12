@@ -1,0 +1,72 @@
+.story-section {
+    padding: 64px 0;
+  }
+  
+  .story-header {
+    text-align: center;
+    max-width: 768px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+  
+  .story-title {
+    font-size: 1.875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  
+  .story-text {
+    color: var(--gray-light);
+    font-size: 0.875rem;
+    line-height: 1.6;
+  }
+  
+  @media (min-width: 768px) {
+    .story-text {
+      font-size: 1rem;
+    }
+  }
+  
+  .paragraph {
+    margin-bottom: 16px;
+  }
+  
+  .skillzone-info {
+    margin-top: 64px;
+    text-align: center;
+  }
+  
+  .skillzone-logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+  }
+  
+  .logo-white {
+    color: white;
+  }
+  
+  .logo-green {
+    color: var(--green-color);
+  }
+  
+  .skillzone-text {
+    max-width: 448px;
+    margin: 0 auto;
+    color: var(--gray-light);
+    font-size: 0.875rem;
+  }
+  
+  @media (min-width: 768px) {
+    .skillzone-text {
+      font-size: 1rem;
+    }
+  }
+  
+  .info-line {
+    margin-bottom: 8px;
+  }
+  

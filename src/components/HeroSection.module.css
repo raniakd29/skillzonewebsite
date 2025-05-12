@@ -1,0 +1,186 @@
+.heroSection {
+    padding: 64px 0;
+
+  }
+  
+  .heroGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 32px;
+    align-items: center;
+  }
+  
+  @media (min-width: 768px) {
+    .heroGrid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  .heroContent {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+  
+  .logoWrapper {
+    display: inline-block;
+  }
+  
+  .logo {
+    font-size: 2.25rem;
+    font-weight: 700;
+  }
+  
+  .logoWhite {
+    color: white;
+  }
+  
+  .logoGreen {
+    color: #4ade80;
+  }
+  
+  .features {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .feature {
+    font-size: 1.125rem;
+  }
+  
+  .highlight {
+    color: #4ade80;
+  }
+  
+  .browserWrapper {
+    position: relative;
+    height: 300px;
+  }
+  
+  @media (min-width: 768px) {
+    .browserWrapper {
+      height: 400px;
+    }
+  }
+  
+  .browser {
+    position: absolute;
+    inset: 0;
+    background-color: #1a1a1a;
+    border-radius: 8px;
+    border: 1px solid #333;
+    overflow: hidden;
+  }
+  
+  .browserHeader {
+    height: 32px;
+    width: 100%;
+    background-color: #252525;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+  }
+  
+  .browserButtons {
+    display: flex;
+    gap: 6px;
+  }
+  
+  .browserButton {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+  }
+  
+  .browserMenu {
+    width: 24px;
+    height: 12px;
+    background-color: #666;
+    border-radius: 4px;
+    margin-left: auto;
+  }
+  
+  .browserContent {
+    padding: 16px;
+    position: relative;
+    height: calc(100% - 32px);
+  }
+  
+  .blueBox {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+  }
+  
+  .animatedBlueBox {
+    width: 48px;
+    height: 80px;
+    background-color: #60a5fa;
+    border-radius: 6px;
+  }
+  
+  .greenBox {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+  }
+  
+  .animatedGreenBox {
+    width: 48px;
+    height: 80px;
+    background-color: #4ade80;
+    border-radius: 6px;
+  }
+  
+  .pathContainer {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 100px;
+    transform: translateY(-50%);
+  }
+  
+  .peopleIllustration {
+    margin-top: 64px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 250px;
+    max-width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .personLeft {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+  
+  .personRight {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .personImage {
+    height: 250px;
+    width: auto;
+  }
+  
+  .centerBox {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .greenSquare {
+    width: 48px;
+    height: 32px;
+    background-color: #4ade80;
+    border-radius: 6px;
+  }
+  
