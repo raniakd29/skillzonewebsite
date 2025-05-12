@@ -28,17 +28,18 @@
 .logo-wrapper {
   position: relative;
   width: 100%;
-  height: auto;
+  max-width: 300px; /* limit size on large screens */
+  margin: 0 auto;
 }
 
 .logo {
   display: block;
-  margin: 0 auto;
-  padding: 24px;
-  border-radius: 8px;
-  max-width: 100%;
+  width: 100%;
   height: auto;
+  padding: 16px;
+  border-radius: 8px;
 }
+
 
 .features {
   display: flex;
@@ -58,7 +59,19 @@
   color: var(--green-color);
 }
 
+.browser-wrapper {
+  position: relative;
+  width: 100%;
+}
 
+.browser {
+  display: block;
+  margin: 0 auto;
+  padding: 24px;
+  border-radius: 8px;
+  max-width: 100%;
+  height: auto;
+}
 
 .browser-buttons {
   display: flex;
