@@ -37,20 +37,21 @@
     margin-right: 10px;
   }
 
-  @media (min-width: 200px) {
-    .skillzone {
-        height: 200px;
-      }
+  @media (max-width: 600px) {
+  .skillzone {
+    max-width: 90%;
   }
+}
+
     
-  .skillzone{
-    display: flex;
-    position: relative;
-    position: absolute;
-    border-radius: 8px;
-    width :50%;
-    margin-bottom: 50px;
-  }
+.skillzone {
+  display: flex;
+  position: relative; /* Use relative unless absolutely needed */
+  border-radius: 8px;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto 50px auto;
+}
   
   .z-letter {
     color: #4ae54a;
