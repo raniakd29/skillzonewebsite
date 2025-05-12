@@ -23,21 +23,32 @@
   }
   
   .logoWrapper {
-    display: inline-block;
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  background-color: red; /* for debugging */
+}
+.logo {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0 auto;
+  border-radius: 8px;
+  object-fit: contain;
+}
+
+@media (max-width: 500px) {
+  .logoWrapper {
+    max-width: 200px;
   }
-  
+
   .logo {
-    font-size: 2.25rem;
-    font-weight: 700;
+    padding: 12px;
   }
-  
-  .logoWhite {
-    color: white;
-  }
-  
-  .logoGreen {
-    color: #4ade80;
-  }
+}
+
   
   .features {
     display: flex;
@@ -183,4 +194,5 @@
     background-color: #4ade80;
     border-radius: 6px;
   }
+  
   

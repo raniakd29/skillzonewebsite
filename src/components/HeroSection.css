@@ -30,6 +30,8 @@
   width: 100%;
   max-width: 300px; /* limit size on large screens */
   margin: 0 auto;
+
+
 }
 
 .logo {
@@ -40,7 +42,15 @@
   border-radius: 8px;
 }
 
+@media (max-width: 500px) {
+  .logo-wrapper {
+    max-width: 200px;
+  }
 
+  .logo {
+    padding: 12px;
+  }
+}
 .features {
   display: flex;
   flex-wrap: wrap;

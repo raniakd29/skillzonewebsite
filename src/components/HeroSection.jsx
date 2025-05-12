@@ -26,7 +26,7 @@ function HeroSection() {
             <img
               src="./image.png"
               alt="Person with blue shirt"
-              className="person-image"
+              className="logo-wrapper"
             />
           </motion.div>
 
@@ -53,7 +53,7 @@ function HeroSection() {
            </div>
            
 
-           
+        
     </section>
   );
 };
