@@ -48,24 +48,12 @@ function HeroSection() {
           </motion.div>
         </motion.div>
 
-        <motion.div
-          initial={{ opacity: 0, x: 50 }}
-          animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: 50 }}
-          transition={{ duration: 0.8, delay: 0.4 }}
-          className="browser-wrapper"
-        >
-          <div className="browser">
-          
-            <img
-              src="./pic.png"
-              alt="Person with blue shirt"
-              className="person-image"
-            />
+      
            
            </div>
-           </motion.div>
+           
 
-           </div>
+           
     </section>
   );
 };
