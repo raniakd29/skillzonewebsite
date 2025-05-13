@@ -1,4 +1,3 @@
-"use client"
 import { Link } from 'react-router-dom';
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
@@ -11,31 +10,24 @@ function Footer() {
   return (
     <footer ref={ref} className="footer">
       <div className="footer-links">
-
         <motion.div
           initial={{ opacity: 0 }}
           animate={isInView ? { opacity: 1 } : { opacity: 0 }}
           transition={{ duration: 0.5, delay: 0.1 }}
-       >
-       <Link to="/about" className="footer-link">About Us</Link>
-      </motion.div>
+        >
+          <Link to="/about" className="footer-link">About Us</Link>
+        </motion.div>
 
-
-      <motion.a
-      initial={{ opacity: 0 }}
-      animate={isInView ? { opacity: 1 } : { opacity: 0 }}
-      transition={{ duration: 0.5, delay: 0.2 }}
-      href="/terms.html" // ✅ this is the key change
-      className="footer-link"
-     target="_blank" // optional: open in new tab
-     rel="noopener noreferrer" // security best practice
-     >
-     Terms of Service
-      </motion.a>
-
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={isInView ? { opacity: 1 } : { opacity: 0 }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+        >
+          <Link to="/terms" className="footer-link">Terms of Service</Link>
+        </motion.div>
       </div>
     </footer>
   );
-};
+}
 
 export default Footer;

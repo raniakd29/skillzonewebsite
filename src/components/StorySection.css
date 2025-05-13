@@ -16,6 +16,7 @@
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.05em;
+    font-family: var(--font-secondary);
   }
   
   .story-text {
@@ -43,6 +44,7 @@
     font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: 24px;
+    font-family: var(--font-secondary);
   }
   
   .logo-white {

@@ -1,0 +1,31 @@
+.skillzone-logo {
+  display: inline-flex;
+  align-items: center;
+  font-family: 'K2D', sans-serif !important; /* Force K2D font with !important */
+  font-weight: 700;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+}
+
+.logo-text {
+  color: white;
+}
+
+.logo-text-green {
+  color: var(--green-color);
+}
+
+/* Adjust size when used as hero-logo */
+.skillzone-logo.hero-logo {
+  font-size: 3.5rem; /* Increased from 2.5rem */
+}
+
+@media (max-width: 768px) {
+  .skillzone-logo {
+    font-size: 1.5rem;
+  }
+  
+  .skillzone-logo.hero-logo {
+    font-size: 2.8rem; /* Increased from 2rem */
+  }
+}

@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Oddval';
+  src: url('./Oddval-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Oddval';
+  src: url('./Oddval-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}

@@ -1,16 +1,22 @@
+import { Link } from 'react-router-dom';
+import { useEffect } from "react";
+import Logo from "../components/Logo";
 import "./styles.css";
 
 function AboutPage() {
+  // Scroll to top when page loads
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="about-container">
+      <nav className="about-nav">
+        <Link to="/" className="back-button">← Back to Home</Link>
+      </nav>
+      
       <header className="header">
-      <img
-            src="/image.png"
-            alt="Person holding a certificate with checkmark"
-            className="skillzone"
-          />
-        <span className="about-text">ABOUT</span>
-
+        <Logo className="about-logo" />
       </header>
 
       <div className="content">

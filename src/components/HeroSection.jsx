@@ -1,7 +1,6 @@
-"use client"
-
 import { useRef } from "react"
 import { motion, useInView } from "framer-motion"
+import Logo from "./Logo"
 import "./HeroSection.css"
 
 function HeroSection() {
@@ -23,11 +22,7 @@ function HeroSection() {
             transition={{ duration: 0.5 }}
             className="logo-wrapper"
           >
-            <img
-              src="./image.png"
-              alt="Person with blue shirt"
-              className="logo-wrapper"
-            />
+            <Logo className="hero-logo" />
           </motion.div>
 
           <motion.div
@@ -47,15 +42,9 @@ function HeroSection() {
             </p>
           </motion.div>
         </motion.div>
-
-      
-           
-           </div>
-           
-
-        
+      </div>
     </section>
   );
-};
+}
 
 export default HeroSection;
