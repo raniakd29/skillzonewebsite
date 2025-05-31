@@ -148,9 +148,14 @@ function ContactSection() {
         transition={{ duration: 0.8, delay: 0.6 }}
         className="cta-container"
       >
-        <motion.button whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} className="cta-button">
+        <motion.a 
+          href="https://drive.usercontent.google.com/download?id=1Vgwkbpehxd4EmnUTXHT3sLz9RYpaKyk0&export=download&authuser=0"
+          whileHover={{ scale: 1.05 }} 
+          whileTap={{ scale: 0.95 }} 
+          className="cta-button"
+        >
           Get It Now!
-        </motion.button>
+        </motion.a>
       </motion.div>
     </section>
   )
