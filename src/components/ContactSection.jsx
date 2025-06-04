@@ -149,7 +149,7 @@ function ContactSection() {
         className="cta-container"
       >
         <motion.a 
-          href="https://drive.usercontent.google.com/download?id=1Vgwkbpehxd4EmnUTXHT3sLz9RYpaKyk0&export=download&authuser=0"
+          href="https://drive.google.com/uc?export=download&id=1FgHxy_Bn2oz9Eptpm1x_fnlFhc2fzEQZ"
           whileHover={{ scale: 1.05 }} 
           whileTap={{ scale: 0.95 }} 
           className="cta-button"
